@@ -1,0 +1,219 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-image: url(../retro-living-room-interior-design.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.nav-items {
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+    margin-left: 12px;
+    
+}
+.nav-item{
+    font-size: 20px;
+    margin-left:27px;
+    margin-top: 10px;
+    font-weight: 100;
+}
+.space-img{
+    position: relative;
+    top:20px;
+    left:26px;
+    width:40px;
+    height: 40px;
+}
+.phone-text{
+    position: relative;
+    top:0px;
+    right:90px;
+    color: #fff;
+}
+.phone{
+    width:13%;
+    height: 62%;
+}
+.line{
+    border-top: 0.1px solid #fff;
+    max-width: 50%;
+}
+.heading-text{
+    color:#fff;
+    position: relative;
+    top:50px;
+    left:50px;
+    max-width: 55%;
+    font-size: 35px;
+}
+.heading-text:hover{
+    color:rgb(159, 159, 159);
+    transition: 1s;
+}
+.btn{
+    font-size: 30px;
+    position: relative;
+    left:80px;
+    top:30px;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    padding: 12px 24px;
+}
+.btn:hover{
+ color:rgb(159, 159, 159);
+ border: 2px solid rgb(159, 159, 159);
+ transition: 1s;
+}
+.nav-item:hover{
+    color:rgb(159, 159, 159);
+    border-bottom: 2px solid rgb(159, 159, 159);
+    transition: 1.2s ;
+    transform: translate(0,-10px) ;
+   }
+.text-card, .btn-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.card-1:hover, .card-2:hover{
+    box-shadow: 6px 12px 18px 6px #99bccd;
+  transition: 0.3s;
+  border-radius: 5px; 
+}
+.card-1, .card-2{
+  box-shadow: 0 6px 12px 0 #99bccd;
+  transition: 0.3s;
+  border-radius: 5px; 
+  width:18%;
+  height: 20%;
+}
+.card-body{
+    color:#fff;
+}
+.contact-me{
+    position: relative;
+    top:20px;
+}
+.call-us{
+    color: #fff;
+}
+.contact-nav{
+    display: flex;
+    flex-direction: row;
+    
+}
+.fa-phone{
+    position: relative;
+    top:20px;
+    left: -10px;
+    color: #fff;
+    font-size: 42px;
+}
+.fa-phone:hover{
+    transform: translate(0,-10px) ;
+    transition: 0.7s ease-in ;
+    transition: 0.7s ease-out ;
+}
+.card-1{
+    position: absolute;
+    top:160px;
+    left:1100px;
+}
+.v1{
+    border-right: 2px solid #fff;
+    height: 100px;
+    position: absolute;
+    right:200px;
+    top:305px;
+}
+.v2{
+    border-bottom: 2px solid #fff;
+    width: 200px;
+    position: absolute;
+    left:977px;
+    top:510px;
+}
+.dot1{
+    color:#fff;
+    font-size: 80px;
+    position: absolute;
+    top:327px;
+    right:193px;
+}
+.dot2{
+    color:#fff;
+    font-size: 80px;
+    position: absolute;
+    left:1173px;
+    top:428px;
+}
+.card-2{
+    position: absolute;
+    left:700px;
+    top:440px;
+}
+.card-body{
+    text-align: center;
+}
+.fa-lightbulb{
+    /* border-radius: 0px; */
+    background: #fff;
+    color:#000;
+    font-size: 42px;
+    position: relative;
+    left:15px;
+    top:12px;
+    border-radius: 22px;
+    padding:7px 30px 7px 30px;
+}
+.fa-clover{
+    background: #fff;
+    color:#000;
+    font-size: 42px;
+    position: relative;
+    left:15px;
+    top:12px;
+    border-radius: 22px;
+    padding:7px 30px 7px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
