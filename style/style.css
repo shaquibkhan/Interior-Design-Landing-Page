@@ -26,13 +26,32 @@ header{
     align-items: center;
     height: 100px;
     margin-left: 12px;
-    
 }
 .nav-item{
     font-size: 20px;
     margin-left:27px;
     margin-top: 10px;
     font-weight: 100;
+}
+.call-us{
+    color: #fff;
+}
+.contact-nav{
+    display: flex;
+    flex-direction: row;
+    
+}
+.fa-phone{
+    position: relative;
+    top:20px;
+    left: -10px;
+    color: #fff;
+    font-size: 42px;
+}
+.fa-phone:hover{
+    transform: translate(0,-10px) ;
+    transition: 0.7s ease-in ;
+    transition: 0.7s ease-out ;
 }
 .space-img{
     position: relative;
@@ -114,26 +133,6 @@ header{
     position: relative;
     top:20px;
 }
-.call-us{
-    color: #fff;
-}
-.contact-nav{
-    display: flex;
-    flex-direction: row;
-    
-}
-.fa-phone{
-    position: relative;
-    top:20px;
-    left: -10px;
-    color: #fff;
-    font-size: 42px;
-}
-.fa-phone:hover{
-    transform: translate(0,-10px) ;
-    transition: 0.7s ease-in ;
-    transition: 0.7s ease-out ;
-}
 .card-1{
     position: absolute;
     top:160px;
@@ -197,6 +196,51 @@ header{
     padding:7px 30px 7px 30px;
 }
 
+/* MEDIA QUERIES */
+
+@media (max-width:768px){
+    .nav-items {
+        margin-left: 6px;
+    }
+    .nav-item{
+        font-size: 12px;
+        margin-left:17px;
+        margin-top: 5px;
+        font-weight: 100;
+    }
+    .contact-nav{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .call-us{
+        /* font-size: 10px; */
+    }
+    .fa-phone{
+        position: relative;
+        top:20px;
+        right: 2px;
+        color: #fff;
+        font-size: 22px;
+    }
+    .logo{
+        max-width: 80px;
+        margin-top: 20px;
+    }
+    .heading-text{
+        color:#fff;
+        position: relative;
+        top:0px;
+        left:50px;
+        max-width: 55%;
+        font-size: 15px;
+    }
+}
+@media (min-width:769px){
+    .mobile-devices-header{
+        display: none;
+    }
+}
 
 
 
